@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="profile-card">
+      <div class="profile-header">
+        <img
+          src="./assets/img/Emmy_k.jpg"
+          alt="Profile Picture"
+          class="profile-picture"
+          data-testid="profilePicture"
+        />
+        <h1 class="full-name" data-testid="fullName">Emmanuel Kehinde</h1>
+        <p class="job-title" data-testid="jobTitle">Frontend Developer</p>
+      </div>
+
+      <div class="profile-body">
+        <p class="short-bio" data-testid="shortBio">
+          Passionate about building seamless, user-friendly web applications
+          with React.js and modern frontend technologies. I love writing clean,
+          scalable, and testable code to create efficient digital experiences.
+          Always eager to learn, collaborate, and push the boundaries of web
+          development. Let’s build something amazing together! 🔥💻
+        </p>
+        <p class="current-location" data-testid="currentLocation">
+          Adoodo Ota, Ogun State
+        </p>
+        <a
+          href="mailto:john.doe@example.com"
+          class="email"
+          data-testid="emailAddress"
+          >kehindemmanuel3455@gmail.com</a
+        >
+      </div>
+      <div class="profile-footer">
+        <div class="social-links" data-testid="socialLinks">
+          <a
+            href="https://www.linkedin.com/in/emmanuel-kehinde-9b6438266/"
+            target="_blank"
+            >LinkedIn</a
+          >
+          <a href="https://github.com/emmyKcodes" target="_blank">GitHub</a>
+        </div>
+        <p id="currentTimeUTC" data-testid="currentTimeUTC">Loading...</p>
+      </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
